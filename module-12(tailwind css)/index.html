@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .box{
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+</head>
+<body>
+    <div class=" my-20 p-5 bg-violet-200 text-center ">
+        <h1 class="text-6xl">abu sayed rifat</h1>
+    <h2 class="my-10 text-2xl">i am learning tailwind</h2>
+    <p class="w-1/2 m-auto text-center border-4 border-sky-600 align-middle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim soluta aut odit ipsam aspernatur necessitatibus laudantium sed voluptatem coum inventore dicta, eligendi rerum mollitia quasi, iusto animi ab quaerat reprehenderit.</p>
+    </div>
+    <h1 class="text-6xl font-black text-center tracking-wide">flex</h1>
+<div class=" flex flex-wrap justify-center items-center border-2 border-rose-500 p-12 my-28 rounded-xl bg-stone-200 text-4xl gap-5">
+    <div class="box w-1/5 h-40 bg-pink-900">Box - 1</div>
+<div class="box w-1/3 h-40 bg-slate-500">Box - 2</div>
+<div class="box w-1/3 h-40 bg-cyan-300">Box - 3</div>
+<div class="box w-1/3 h-40 bg-violet-950">Box - 4</div>
+<div class="box w-1/3 h-40 bg-rose-300">Box - 5</div>
+<div class="box w-1/2 h-40 bg-violet-500">Box - 6</div>
+<div class="box w-1/3 h-40 bg-stone-500">Box - 7</div>
+<div class="box w-full h-40 bg-red-500">Box - 8</div>
+<div class="box w-1/3 h-40 bg-teal-600">Box - 9</div>
+<div class="box w-1/2 h-40 bg-green-300">Box - 10</div>
+<div class="box w-1/3 h-40 bg-rose-900">Box - 11</div>
+</div>
+<section>
+    
+<h1 class="text-6xl font-black text-center tracking-wide">Grid</h1>
+<div class=" grid grid-cols-3 md: gap-2 my-40 mx-10 text-center">
+    <!-- .bg-cyan-500.rounded-lg.border-2.border-green-900*24>{box - } -->
+    <div class="h-20 bg-cyan-500 rounded-lg border-2 border-green-900 col-span-3">box - 1</div>
+    <div class=" bg-cyan-500 rounded-lg border-2 border-green-900 row-span-7">box - 2</div>
+    <div class=" h-20 bg-cyan-500 rounded-lg border-2 border-green-900 col-span-2">box - 3</div>
+    <div class=" bg-cyan-500 rounded-lg border-2 border-green-900 row-span-6">box - 4</div>
+    <div class=" bg-cyan-500 rounded-lg border-2 border-green-900 row-span-6">box - 5</div>
+    <div class=" bg-cyan-500 rounded-lg border-2 border-green-900 col-span-3">box - 6</div>
+    <div class=" bg-cyan-500 rounded-lg border-2 border-green-900">box - 7</div>
+    <div class=" bg-cyan-500 rounded-lg border-2 border-green-900">box - 8</div>
+
+ 
+</div>
+</section>
+</body>
+</html>
