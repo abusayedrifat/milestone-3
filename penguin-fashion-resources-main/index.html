@@ -15,6 +15,30 @@
         .roboto{
             font-family: 'Roboto';
         }
+        h3.text{
+            color: #363958;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .p-text{
+            color: #3E3E3E;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+        }
+        .h2-text{
+            color: #FABE4C;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 900;
+        }
+    .footer-img img{
+        width: 80%;
+    }
+
     </style>
 </head>
 <body>
@@ -30,14 +54,50 @@
             </nav>
         </div>
         <!-- banner section -->
-        <div class="flex justify-between items-center px-32 border border-orange-700 bg-[#FFFBF0]">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-16 px-32 pb-20 bg-[#FFFBF0]">
             <div class="space-y-2.5">
                 <h1 class="text-8xl bebus"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
                     of Winter</h1>
                     <p class="roboto w-96">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit inventore perspiciatis.
                         </p>
-                    <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
+                        <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke-width="1.9" version="1.1" id="Capa_1" viewBox="0 0 495.401 495.401" xml:space="preserve" class="w-6 h-6 inline">
+                                <g>
+                                    <g>
+                                        <path style="fill:#ffffff;" d="M185.049,381.529c-22.852,0-41.379,18.517-41.379,41.36c0,22.861,18.527,41.379,41.379,41.379    c22.843,0,41.37-18.518,41.37-41.379C226.419,400.048,207.892,381.529,185.049,381.529z"/>
+                                        <path style="fill:#ffffff;" d="M365.622,381.529c-22.861,0-41.379,18.517-41.379,41.36c0,22.861,18.518,41.379,41.379,41.379    c22.844,0,41.38-18.518,41.38-41.379C407.002,400.048,388.466,381.529,365.622,381.529z"/>
+                                        <path style="fill:#ffffff;" d="M469.558,154.735l-229.192-0.019c-11.46,0-20.75,9.29-20.75,20.75s9.29,20.75,20.75,20.75    l202.778-0.01l-12.864,43.533l-206.164,0.044c-10.631,0-19.25,8.619-19.25,19.25c0,10.632,8.619,19.25,19.25,19.25l194.768,0.076    l-12.093,40.715H174.455L159.04,196.188L144.321,76.471c-1.198-9.473-8.066-17.251-17.319-19.611l-98-25    C16.56,28.684,3.901,36.199,0.727,48.641s4.339,25.102,16.781,28.275l82.667,21.089l32.192,241.591c0,0,1.095,28.183,26.69,28.183    h256.81c21.518,0,25.678-22.438,25.678-22.438l50.896-151.159C492.441,194.162,507.532,154.735,469.558,154.735z"/>
+                                    </g>
+                                </g>
+                                </svg>
+                               Buy Now
+                            </button>
+            </div>
+            <div class="w-5/12">
+                <img src="images/model.png" alt=""> 
+            </div>
+        </div>
+    </header>
+
+
+    <!-- main section -->
+
+    <main class="max-w-7xl mx-auto mb-36">
+
+       <!-- [women jacket] -->
+        <section>
+            <h1 class="bebus mb-7 text-6xl">Women Jacket</h1>
+            <div class="flex gap-x-7">
+                <div class="p-5 space-y-4 rounded-2xl shadow-xl" >
+                    <div class="bg-gray-400 p-5 rounded-2xl"><img src="images/jacket-1.png" alt=""></div>
+                    <div>
+                        <h3 class="text" >Yellow Coat Jacket </h3>
+                        <p class="p-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="h2-text">$234</h2>
+                        <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke-width="1.9" version="1.1" id="Capa_1" viewBox="0 0 495.401 495.401" xml:space="preserve" class="w-6 h-6 inline">
                             <g>
                                 <g>
@@ -49,13 +109,164 @@
                             </svg>
                            Buy Now
                         </button>
+                    </div>
+                </div>
+                <div class="p-5 space-y-4 rounded-2xl shadow-xl" >
+                    <div class="bg-gray-400 p-5 rounded-2xl" >  <img src="images/jacket-2.png" alt=""></div>
+                    <div >
+                        <h3 class="text" >Ladies Jacket </h3>
+                        <p class="p-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="h2-text">$234</h2>
+                        <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke-width="1.9" version="1.1" id="Capa_1" viewBox="0 0 495.401 495.401" xml:space="preserve" class="w-6 h-6 inline">
+                            <g>
+                                <g>
+                                    <path style="fill:#ffffff;" d="M185.049,381.529c-22.852,0-41.379,18.517-41.379,41.36c0,22.861,18.527,41.379,41.379,41.379    c22.843,0,41.37-18.518,41.37-41.379C226.419,400.048,207.892,381.529,185.049,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M365.622,381.529c-22.861,0-41.379,18.517-41.379,41.36c0,22.861,18.518,41.379,41.379,41.379    c22.844,0,41.38-18.518,41.38-41.379C407.002,400.048,388.466,381.529,365.622,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M469.558,154.735l-229.192-0.019c-11.46,0-20.75,9.29-20.75,20.75s9.29,20.75,20.75,20.75    l202.778-0.01l-12.864,43.533l-206.164,0.044c-10.631,0-19.25,8.619-19.25,19.25c0,10.632,8.619,19.25,19.25,19.25l194.768,0.076    l-12.093,40.715H174.455L159.04,196.188L144.321,76.471c-1.198-9.473-8.066-17.251-17.319-19.611l-98-25    C16.56,28.684,3.901,36.199,0.727,48.641s4.339,25.102,16.781,28.275l82.667,21.089l32.192,241.591c0,0,1.095,28.183,26.69,28.183    h256.81c21.518,0,25.678-22.438,25.678-22.438l50.896-151.159C492.441,194.162,507.532,154.735,469.558,154.735z"/>
+                                </g>
+                            </g>
+                            </svg>
+                           Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="p-5 space-y-4 rounded-2xl shadow-xl" >
+                    <div class="bg-gray-400 p-5 rounded-2xl">  <img src="images/jacket-3.png" alt=""></div>
+                    <div >
+                        <h3 class="text" >Woman Leather Jacket </h3>
+                        <p class="p-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="h2-text">$234</h2>
+                        <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke-width="1.9" version="1.1" id="Capa_1" viewBox="0 0 495.401 495.401" xml:space="preserve" class="w-6 h-6 inline">
+                            <g>
+                                <g>
+                                    <path style="fill:#ffffff;" d="M185.049,381.529c-22.852,0-41.379,18.517-41.379,41.36c0,22.861,18.527,41.379,41.379,41.379    c22.843,0,41.37-18.518,41.37-41.379C226.419,400.048,207.892,381.529,185.049,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M365.622,381.529c-22.861,0-41.379,18.517-41.379,41.36c0,22.861,18.518,41.379,41.379,41.379    c22.844,0,41.38-18.518,41.38-41.379C407.002,400.048,388.466,381.529,365.622,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M469.558,154.735l-229.192-0.019c-11.46,0-20.75,9.29-20.75,20.75s9.29,20.75,20.75,20.75    l202.778-0.01l-12.864,43.533l-206.164,0.044c-10.631,0-19.25,8.619-19.25,19.25c0,10.632,8.619,19.25,19.25,19.25l194.768,0.076    l-12.093,40.715H174.455L159.04,196.188L144.321,76.471c-1.198-9.473-8.066-17.251-17.319-19.611l-98-25    C16.56,28.684,3.901,36.199,0.727,48.641s4.339,25.102,16.781,28.275l82.667,21.089l32.192,241.591c0,0,1.095,28.183,26.69,28.183    h256.81c21.518,0,25.678-22.438,25.678-22.438l50.896-151.159C492.441,194.162,507.532,154.735,469.558,154.735z"/>
+                                </g>
+                            </g>
+                            </svg>
+                           Buy Now
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="w-5/12">
-                <img src="images/model.png" alt="" class="border border-orange-700 mr-48 "> 
+        </section>
+       
+        <!-- [mens jacket] -->
+        <section>
+            <h1 class="bebus mb-7 mt-28 text-6xl">Man Jacket</h1>
+            <div class="flex gap-x-7">
+                <div class="p-5 space-y-4 rounded-2xl shadow-xl"  >
+                    <div class="bg-gray-400 p-5 rounded-2xl"><img src="images/jacket-4.png" alt=""></div>
+                    <div >
+                        <h3 class="text" >Snowboard Jacket Mens</h3>
+                        <p class="p-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="h2-text">$234</h2>
+                        <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke-width="1.9" version="1.1" id="Capa_1" viewBox="0 0 495.401 495.401" xml:space="preserve" class="w-6 h-6 inline">
+                            <g>
+                                <g>
+                                    <path style="fill:#ffffff;" d="M185.049,381.529c-22.852,0-41.379,18.517-41.379,41.36c0,22.861,18.527,41.379,41.379,41.379    c22.843,0,41.37-18.518,41.37-41.379C226.419,400.048,207.892,381.529,185.049,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M365.622,381.529c-22.861,0-41.379,18.517-41.379,41.36c0,22.861,18.518,41.379,41.379,41.379    c22.844,0,41.38-18.518,41.38-41.379C407.002,400.048,388.466,381.529,365.622,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M469.558,154.735l-229.192-0.019c-11.46,0-20.75,9.29-20.75,20.75s9.29,20.75,20.75,20.75    l202.778-0.01l-12.864,43.533l-206.164,0.044c-10.631,0-19.25,8.619-19.25,19.25c0,10.632,8.619,19.25,19.25,19.25l194.768,0.076    l-12.093,40.715H174.455L159.04,196.188L144.321,76.471c-1.198-9.473-8.066-17.251-17.319-19.611l-98-25    C16.56,28.684,3.901,36.199,0.727,48.641s4.339,25.102,16.781,28.275l82.667,21.089l32.192,241.591c0,0,1.095,28.183,26.69,28.183    h256.81c21.518,0,25.678-22.438,25.678-22.438l50.896-151.159C492.441,194.162,507.532,154.735,469.558,154.735z"/>
+                                </g>
+                            </g>
+                            </svg>
+                           Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="p-5 space-y-4 rounded-2xl shadow-xl" >
+                    <div class="bg-gray-400 p-5 rounded-2xl"><img src="images/jacket-5.png" alt=""></div>
+                    <div >
+                        <h3 class="text" >Man Leather Jackets</h3>
+                        <p class="p-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="h2-text">$234</h2>
+                        <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke-width="1.9" version="1.1" id="Capa_1" viewBox="0 0 495.401 495.401" xml:space="preserve" class="w-6 h-6 inline">
+                            <g>
+                                <g>
+                                    <path style="fill:#ffffff;" d="M185.049,381.529c-22.852,0-41.379,18.517-41.379,41.36c0,22.861,18.527,41.379,41.379,41.379    c22.843,0,41.37-18.518,41.37-41.379C226.419,400.048,207.892,381.529,185.049,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M365.622,381.529c-22.861,0-41.379,18.517-41.379,41.36c0,22.861,18.518,41.379,41.379,41.379    c22.844,0,41.38-18.518,41.38-41.379C407.002,400.048,388.466,381.529,365.622,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M469.558,154.735l-229.192-0.019c-11.46,0-20.75,9.29-20.75,20.75s9.29,20.75,20.75,20.75    l202.778-0.01l-12.864,43.533l-206.164,0.044c-10.631,0-19.25,8.619-19.25,19.25c0,10.632,8.619,19.25,19.25,19.25l194.768,0.076    l-12.093,40.715H174.455L159.04,196.188L144.321,76.471c-1.198-9.473-8.066-17.251-17.319-19.611l-98-25    C16.56,28.684,3.901,36.199,0.727,48.641s4.339,25.102,16.781,28.275l82.667,21.089l32.192,241.591c0,0,1.095,28.183,26.69,28.183    h256.81c21.518,0,25.678-22.438,25.678-22.438l50.896-151.159C492.441,194.162,507.532,154.735,469.558,154.735z"/>
+                                </g>
+                            </g>
+                            </svg>
+                           Buy Now
+                        </button>
+                    </div>
+                </div>
+                <div class="p-5 space-y-4 rounded-2xl shadow-xl" >
+                    <div class="bg-gray-400 p-5 rounded-2xl"><img src="images/jacket-6.png" alt=""></div>
+                    <div >
+                        <h3 class="text" >Man Casual Jackets</h3>
+                        <p class="p-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi.</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <h2 class="h2-text">$234</h2>
+                        <button class="roboto font-mediu bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-lg py-4 px-7 text-white uppercase">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  stroke-width="1.9" version="1.1" id="Capa_1" viewBox="0 0 495.401 495.401" xml:space="preserve" class="w-6 h-6 inline">
+                            <g>
+                                <g>
+                                    <path style="fill:#ffffff;" d="M185.049,381.529c-22.852,0-41.379,18.517-41.379,41.36c0,22.861,18.527,41.379,41.379,41.379    c22.843,0,41.37-18.518,41.37-41.379C226.419,400.048,207.892,381.529,185.049,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M365.622,381.529c-22.861,0-41.379,18.517-41.379,41.36c0,22.861,18.518,41.379,41.379,41.379    c22.844,0,41.38-18.518,41.38-41.379C407.002,400.048,388.466,381.529,365.622,381.529z"/>
+                                    <path style="fill:#ffffff;" d="M469.558,154.735l-229.192-0.019c-11.46,0-20.75,9.29-20.75,20.75s9.29,20.75,20.75,20.75    l202.778-0.01l-12.864,43.533l-206.164,0.044c-10.631,0-19.25,8.619-19.25,19.25c0,10.632,8.619,19.25,19.25,19.25l194.768,0.076    l-12.093,40.715H174.455L159.04,196.188L144.321,76.471c-1.198-9.473-8.066-17.251-17.319-19.611l-98-25    C16.56,28.684,3.901,36.199,0.727,48.641s4.339,25.102,16.781,28.275l82.667,21.089l32.192,241.591c0,0,1.095,28.183,26.69,28.183    h256.81c21.518,0,25.678-22.438,25.678-22.438l50.896-151.159C492.441,194.162,507.532,154.735,469.558,154.735z"/>
+                                </g>
+                            </g>
+                            </svg>
+                           Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex items-center max-w-7xl mx-auto mb-52 gap-9">
+        <div class="w-1/2 space-y-4">
+            <div class="flex items-center gap-7 rounded-2xl shadow-xl h-40 p-6">
+                <div class="footer-img w-1/4">
+                    <img src="icons/house.png" alt="" >
+                </div>
+                <div>
+                    <h3 class="text">Find the Perfect Fit</h3>
+                <p class="p-text pr-9">Everybody is different, which is why we
+                    offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-7 rounded-2xl shadow-xl h-40 p-6">
+                <div class=" footer-img w-1/4">
+                    <img src="icons/box.png" alt="">
+                </div>
+                <div>
+                    <h3 class="text">Free Exchanges</h3>
+                <p class="p-text pr-9">One of the many reasons you can shop
+                    with peace of mind.</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-7 rounded-2xl shadow-xl h-40 p-6">
+                <div class="footer-img w-1/4">
+                    <img src="icons/question.png" alt="">
+                </div>
+                <div class="w-2/3 pr-16">
+                    <h3 class="text">Contact Our Seller</h3>
+                <p class="p-text pr-9">They are here to help you. That's quite 
+                    literally what we pay them for.</p>
+                </div>
             </div>
         </div>
-    </header>
-    <main></main>
-    <footer></footer>
+        <div class="w-1/2">
+            <img src="images/shopping.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
